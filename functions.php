@@ -1,9 +1,8 @@
 <?php
 
 function iportfolio_assets(){
-
     /**
-     * Favicons
+    * Favicons
      */
 
 wp_enqueue_style('icon',get_theme_file_uri('/assets/img/favicon.png'));

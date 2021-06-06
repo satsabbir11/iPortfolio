@@ -1,2 +1,2 @@
 A Portfolio Wordpress Theme
-Template From: Getbootstrap
+Template From: Getbootstrap.com
