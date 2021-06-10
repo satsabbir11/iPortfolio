@@ -1,4 +1,16 @@
 <?php
+require_once get_theme_file_path('/inc/tgm.php');
+function iportfolio_theme_setup()
+{
+    load_theme_textdomain("iportfolio");
+    add_theme_support("post-thumbnails");
+    add_theme_support("title-tag");
+    add_theme_support('html5', array('search-form','comment-list'));
+    add_theme_support("post-formats", array("image","gallery","quote","audio","video","link"));
+
+    register_nav_menu("sidemenu",__("Side Menu","iportfolio"));
+}
+add_action("after_setup_theme","iportfolio_theme_setup");
 
 function iportfolio_assets(){
     /**

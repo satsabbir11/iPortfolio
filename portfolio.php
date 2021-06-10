@@ -94,7 +94,7 @@
                 <div class="portfolio-wrap">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
                     <div class="portfolio-links">
-                        <a href="<?php echo get_template_directory_uri(); ?>/assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                        <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
                         <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                     </div>
                 </div>
